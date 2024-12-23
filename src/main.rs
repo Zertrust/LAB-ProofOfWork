@@ -3,7 +3,7 @@ mod pow_verification;
 use std::env;
 
 fn main() {
-    // Récupérer les arguments de la ligne de commande
+    // Récupérer les arguments de la ligne de commandes
     let args: Vec<String> = env::args().collect();
 
     // Vérification des arguments pour définir si on mine ou vérifie un PoW
