@@ -2,7 +2,7 @@ use sha2::{Sha256, Digest};
 use std::fmt::Write;
 use std::time::{SystemTime, Duration, UNIX_EPOCH};
 
-// Durée d'expiration pour un hash valide (en secondes)
+// Durée d'expiration pour un hash valide (en secondes )
 // const HASH_EXPIRATION: Duration = Duration::new(10, 0); // 10 secondes
 
 // Fonction pour générer la preuve de travail (PoW)
